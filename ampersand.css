@@ -18,4 +18,5 @@ section {
 h1, h3, h3, h4 {
   padding: 20%;
   color: white;
+  align-content: flex-start;
 }
