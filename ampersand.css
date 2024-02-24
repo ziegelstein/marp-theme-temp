@@ -20,3 +20,19 @@ h1, h3, h3, h4 {
   color: white;
   align-content: flex-start;
 }
+
+section {
+    display: flex;
+    color: white;
+    flex-flow: column wrap;
+}
+li {
+    flex-direction: row;
+    font-size: 0.6rem;
+}
+img {
+    align-self: flex-end;
+    max-width: 500px;
+    margin: 5px;
+    padding: 5px;
+}
