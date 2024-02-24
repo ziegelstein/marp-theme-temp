@@ -1,0 +1,21 @@
+/* 
+  Ampersand Theme for presentations
+
+  @theme ampersand
+  @author zeta
+  @auto-scaling true
+*/
+
+@import 'default';
+
+section {
+  background: rgb(40, 40, 40);
+  color: #135;
+  display: flex;
+  align-items: center;
+}
+
+h1, h3, h3, h4 {
+  padding: 20%;
+  color: white;
+}
