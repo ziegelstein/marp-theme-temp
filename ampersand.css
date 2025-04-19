@@ -13,6 +13,8 @@ section {
   color: #135;
   display: flex;
   align-items: center;
+  padding: 2rem;
+  font-size: 1.5rem;
 }
 
 h1, h2 {
@@ -29,8 +31,6 @@ li {
 
 h3, h4 {
   z-index: 5;
-  padding-bottom: 20%;
-  padding-top: 5%;
   color: white;
   font-size: 2rem;
   text-shadow: 3px 3px 2px black;
@@ -61,6 +61,12 @@ li {
   align-self: center;
 }
 
+.left {
+  align-self: flex-start;
+  margin-top: auto;
+  margin-left: 0;
+}
+
 .center-img {
   align-self: center;
   margin-top: -10%;
@@ -75,13 +81,21 @@ li {
   z-index:-1;
 }
 
+.bottom {
+  align-self: flex-end;
+  margin-top: auto;
+  position: fixed;
+  bottom: 0;
+  left: 25%;
+}
+
 .pseudo-headline {
   margin-left: 10%;
   margin-top: 25%;
 }
 
 .quote {
-  font-size: 1.5rem;
+  font-size: 5.5rem;
   font-style: oblique;
   margin-left: auto;
   margin-right: auto;
